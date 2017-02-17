@@ -40,13 +40,15 @@
  */
 
 
-var GameInfo = require("./GameInfo.js");
+import GameInfo from "./GameInfo.js";
 
 
-exports.timeStart = function (bar, value) {
+function timeStart(bar, value) {
     var timer = {time: 1};
     createjs.Tween.get(timer).to({time: 0}, GameInfo.countTime * 1000).addEventListener("change", function (e) {
         bar[value] = timer.time;
     })
-};
+}
+
+export {timeStart}
 

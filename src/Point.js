@@ -2,17 +2,20 @@
  * Created by YTRX-CTO on 2016/1/14.
  */
 
-var Assets = require("./Assets.js");
-var Point = function (str, font) {
-    createjs.Container.call(this);
 
-    var ss = Assets.loader.getResult(String(font));
-    var txt = new createjs.BitmapText(str + "", ss);
+import Assets from './Assets';
 
-    this.addChild(txt);
-};
-Point.prototype = Object.create(createjs.Container.prototype);
-Point.prototype.constructor = Point;
+class Point extends createjs.Container {
+    constructor(str, font) {
+        super();
+        if (Assets.loader) {
+            var ss = Assets.loader.getResult(String(font));
+            var txt = new createjs.BitmapText(str + "", ss);
 
+            this.addChild(txt);
+        }
 
-module.exports = Point;
+    }
+}
+
+export default Point;

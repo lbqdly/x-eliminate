@@ -1,11 +1,11 @@
 /**
  * Created by YTRX-CTO on 2015/9/8.
  */
-var ProgressBar = require('./ProgressBar.js');
-var GameInfo = require('./GameInfo.js');
-var Assets = require('./Assets.js');
-var ScenePlay = require('./ScenePlay.js');
-var Point = require("./Point.js");
+import ProgressBar from './ProgressBar.js';
+import GameInfo from './GameInfo.js';
+import Assets from './Assets.js';
+import ScenePlay from './ScenePlay.js';
+import Point from "./Point.js";
 
 var stage, canvas, progressBar, loader;//
 
@@ -44,5 +44,4 @@ function start(_canvas) {
     });
     loader.load();
 }
-
-exports.start = start;
+export {start};

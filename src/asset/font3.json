@@ -1,6 +1,6 @@
 {
 "framerate":24,
-"images":["images/font3.png"],
+"images":["asset/font3.png"],
 "frames":[
     [0, 0, 64, 64, 0, 0, -5],
     [64, 0, 64, 64, 0, 0, -5],

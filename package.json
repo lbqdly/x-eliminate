@@ -1,0 +1,44 @@
+{
+  "name": "x-eliminate",
+  "version": "1.0.0",
+  "description": "十字消除小游戏",
+  "main": "src/main.js",
+  "dependencies": {
+    "immutability-helper": "^2.1.1",
+    "store": "^1.3.20"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "browser-sync-webpack-plugin": "^1.1.3",
+    "copy-webpack-plugin": "^4.0.1",
+    "autoprefixer": "^6.5.4",
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "postcss-loader": "^1.2.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.2"
+  },
+  "scripts": {
+    "dev": "webpack --config webpack.dev.js",
+    "pro": "webpack --config webpack.pro.js -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/good318/x-eliminate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/good318/x-eliminate/issues"
+  },
+  "homepage": "https://github.com/good318/x-eliminate#readme"
+}

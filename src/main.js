@@ -1,9 +1,9 @@
-/**
- * Created by YTRX-CTO on 2015/9/6.
- */
+import './style/x-eliminate.css';
 
-var Game = require('./Game.js');
-Game.start(document.getElementById('game'));/**/
+import {start} from './Game.js';
+
+start(document.getElementById('game'));
+/**/
 
 
 

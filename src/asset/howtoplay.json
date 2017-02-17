@@ -1,6 +1,6 @@
 {
 "framerate":24,
-"images":["images/howtoplay.png"],
+"images":["asset/howtoplay.png"],
 "frames":[
     [0, 94, 94, 22, 0, 47, 11],
     [78, 0, 56, 58, 0, 28, 29],

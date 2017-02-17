@@ -1,8 +1,9 @@
 /**
  * Created by YTRX-CTO on 2015/9/8.
  */
-var Util = require('./Util.js');
-module.exports = {
+
+import Util from './Util';
+export default {
     BEST_SCORE: "shi-zi-xiao-best-score",//本地储存key
     WIDTH: 640,
     getWidth: function () {
