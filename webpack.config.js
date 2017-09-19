@@ -32,10 +32,9 @@ module.exports = {
         path: path.resolve(__dirname, 'dist/'),
         //文件命名
         filename: 'index.[chunkHash:7].js',
-
     },
     //入口js文件
-    entry: './x/index.js',
+    entry: './index.js',
     plugins: [
         new HtmlWebpackPlugin({
             filename: 'index.html',
