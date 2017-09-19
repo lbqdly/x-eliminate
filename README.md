@@ -1,36 +1,6 @@
-# webpack multiple page boilerplate
-This is a webpack multiple page boilerplate,we don't need router.
+# 十字消除
 
-这是一个使用webpack构建多页面样版，避免了使用router。
+这是一个基于canvas制作的十字消除游戏，使用了[createjs](http://createjs.com/)。在线地址： [https://www.b5156.net/xe.html](https://www.b5156.net/xe.html)
 
-## usage
-Just add the options to `entries.js` config as follows ( base on [html-webpack-plugin](https://www.npmjs.com/package/html-webpack-plugin)) :
+![Alt text](https://www.b5156.net/xe.png)
 
-只需要向 `entries.js` 文件添加配置即可，如下所示（配置文件是基于 [html-webpack-plugin](https://www.npmjs.com/package/html-webpack-plugin) 的拓展）：
-
-```javascript
-{   
-  //page name
-  filename: 'index.html',
-  //entry js
-  entry: './routes/index',
-  //commons chunks
-  chunks: ['vendor'],
-  //title: 'my website',
-  //template:'',
-  //inject:'head||body',
-  //favicon:'',
-  //...
-  //https://github.com/jantimon/html-webpack-plugin
-}
-```
-
-开始编码
-
-`npm run dev` 
-
-
-
-构建可用于发布的代码
-
-`npm run build` 
