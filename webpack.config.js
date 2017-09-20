@@ -37,7 +37,7 @@ module.exports = {
     entry: './index.js',
     plugins: [
         new HtmlWebpackPlugin({
-            filename: 'xe.html',
+            filename: 'index.html',
             template: 'index.ejs'
         }),
         //静态文件包，直接copy到发布目录。
@@ -50,7 +50,7 @@ module.exports = {
             new BrowserSyncPlugin({
                     server: {
                         baseDir: "dist",
-                        index: "xe.html"
+                        index: "index.html"
                     }
                 },
                 {reload: true}
