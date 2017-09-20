@@ -1,6 +1,6 @@
 {
 "framerate":24,
-"images":["asset/font2.png"],
+"images":["statics/textures/font2.png"],
 "frames":[
     [70, 0, 18, 21, 0, 0, -1],
     [139, 0, 13, 21, 0, -1, -1],
