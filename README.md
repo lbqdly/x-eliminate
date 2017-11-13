@@ -4,5 +4,5 @@
 
 [在线地址](https://www.b5156.net/statics/xe/index.html)
 
-![Alt text](https://www.b5156.net/statics/xe/xe.png)
+![二维码](https://www.b5156.net/statics/xe/xe.png)
 
